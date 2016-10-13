@@ -1,0 +1,31 @@
+﻿  TestC2Main.cpp
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(106): error C2039: 'rows': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(106): error C2660: 'SnakeGame::RangeTeleport': 函式不使用 1 引數
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(111): error C2039: 'cols': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(112): error C2039: 'cols': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(129): error C2039: 'BoxCounter': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(129): error C2065: 'BoxCounter': 未宣告的識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(132): error C2664: 'void SnakeGame::PrintArray(Grid *)': 無法將引數 1 從 'int **' 轉換為 'Grid *'
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(132): note: 指向的類型沒有相關; 轉換必須有 reinterpret_cast、C-Style 轉換或函式樣式轉換
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(146): error C3861: 'CopyDayn2DArr': 找不到識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(149): error C3861: 'CopyDayn2DArr': 找不到識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(152): error C3861: 'CopyDayn2DArr': 找不到識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(155): error C2039: 'rows': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(161): error C2039: 'BoxCounter': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(161): error C2065: 'BoxCounter': 未宣告的識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(167): error C2039: 'rows': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(167): error C3078: 新運算式中必須指定陣列大小
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(170): error C2039: 'rows': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(172): error C2039: 'nOrinigal2Darr': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(172): error C3861: 'CopyDayn2DArr': 找不到識別項
+c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(175): error C2039: 'rows': 不是 'SnakeGame' 的成員
+  c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\SnakeGame - 複製.h(81): note: 請參閱 'SnakeGame' 的宣告

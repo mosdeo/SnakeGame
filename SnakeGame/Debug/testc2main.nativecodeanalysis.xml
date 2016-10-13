@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+      <FILENAME>snakegame.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>寫入 '_n2Darr[i]' 時發生緩衝區滿溢:    可寫入的大小只有 'cols*4' 個位元組，但可能被寫入了 '8' 個位元組。</DESCRIPTION>
+    <FUNCTION>SnakeGame::CopyDayn2DArr</FUNCTION>
+    <DECORATED>?CopyDayn2DArr@SnakeGame@@AAEPAPAHPAPAH@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>宣告</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' 是 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>進入此迴圈 (假設 'i&lt;this-&gt;cols')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>進入此迴圈 (假設 'j&lt;this-&gt;rows')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>宣告</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' 可能等於 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>繼續此迴圈 (假設 'j&lt;this-&gt;rows')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\deo\documents\visual studio 2015\projects\snakegame\snakegame\</FILEPATH>
+        <FILENAME>snakegame.h</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>用法</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>無法寫入 '_n2Darr[i][1]' (可寫入的範圍為 0 到 0 之間)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
